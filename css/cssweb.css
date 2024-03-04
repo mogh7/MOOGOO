@@ -171,6 +171,15 @@ img:hover {
 }
 
 .myPhoto{
-  height: max-content;
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 30px;
 }
 
